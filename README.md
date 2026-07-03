@@ -1,1 +1,1 @@
-# DocuMind---AI-Document-RAG-Platform
+# DocuMind - AI Document RAG Platform
