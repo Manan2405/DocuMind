@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manan Gagrani - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Manan Gagrani</h1>
+        <p>Third Year Undergraduate, Mathematics and Scientific Computing</p>
+        <p>Indian Institute of Technology, Kanpur</p>
+        <p>Email: manan24@iitk.ac.in | GitHub: Manan2405</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="education">
+            <h2>Academic Qualifications</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Degree/Certificate</th>
+                        <th>Institute</th>
+                        <th>CPI/%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024 - Present</td>
+                        <td>BS (Mathematics and Scientific Computing)</td>
+                        <td>Indian Institute of Technology, Kanpur</td>
+                        <td>7.7/10</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Class XII (Maharashtra State Board)</td>
+                        <td>Matoshri College of Engineering, Nashik</td>
+                        <td>92.8%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>Class X (Rajasthan State Board)</td>
+                        <td>Shri Mahesh Shiksha Sadan, Bhilwara</td>
+                        <td>92.2%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <p>C/C++ | Python | HTML | CSS | JavaScript | Git | GitHub | Next.js | Streamlit | OpenCV | PyTorch | FastAPI | PostgreSQL</p>
+        </section>
+
+        <section id="coursework">
+            <h2>Relevant Coursework</h2>
+            <ul>
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Fundamentals of Computing</li>
+                <li>Linear Algebra</li>
+                <li>Numerical Analysis & Scientific Computing</li>
+                <li>Introduction to Probability Theory</li>
+                <li>Ordinary Differential Equations</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Key Projects</h2>
+            
+            <div class="project">
+                <h3>ISTVT for Deepfake Detection</h3>
+                <p><strong>EE656 Course Project | Prof. Nishchal K. Verma | Jun 26 - Ongoing</strong></p>
+                <ul>
+                    <li><strong>Objective:</strong> To build an interpretable spatial-temporal video transformer for truly robust deepfake detection.</li>
+                    <li><strong>Approach:</strong>
+                        <ul>
+                            <li>Designed a spatial-temporal learning framework to deeply analyze videos and identify manipulations.</li>
+                            <li>Extracted rich spatial-textural facial features using a lightweight Xception CNN backbone for detection.</li>
+                            <li>Incorporated explainability techniques to highlight key regions of deepfake, influencing model decisions.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Impact:</strong>
+                        <ul>
+                            <li>Achieved 95% accuracy, 1.00 precision, 0.91 recall, 0.95 Fl-score, and 0.96 AUC on FF++ C23.</li>
+                            <li>Generated spatial GradCAM heatmaps and temporal importance scores for deeper detection analysis.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>Astral Trails</h3>
+                <p><strong>Summer Project | Astronomy Club, IIT Kanpur | Apr 25 - Aug 25</strong></p>
+                <ul>
+                    <li><strong>Objective:</strong> To build a cosmic radiation analytics platform to quantify cancer risk and mission radiation exposure.</li>
+                    <li><strong>Approach:</strong>
+                        <ul>
+                            <li>Engineered a top-to-base thermal gradient in a low-cost DIY cloud chamber for deep sub-zero conditions.</li>
+                            <li>Developed an OpenCV track classifier utilizing Canny edge detection and morphological operations.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Impact:</strong>
+                        <ul>
+                            <li>Ran Monte Carlo DNA-damage simulations across 1000 trials to analyze radiation health impacts.</li>
+                            <li>Implemented a functional cloud chamber alongside an automated rule-based particle classification model.</li>
+                            <li>Delivered a 9-module dashboard computing cancer risk and total dose from 5+ APIs & 25+ stations.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>DocuMind - AI Document RAG Platform</h3>
+                <p><strong>ACA Society, IIT Kanpur | May 26 - Ongoing</strong></p>
+                <ul>
+                    <li><strong>Objective:</strong>
+                        <ul>
+                            <li>To build a full-stack RAG platform enabling interactive document uploads and seamless chat queries.</li>
+                            <li>To deliver source-grounded, accurately-cited answers to strictly eliminate all generative LLM hallucinations.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Approach:</strong>
+                        <ul>
+                            <li>Engineered a highly scalable full-stack platform utilizing Next.js, Fast API, and a PostgreSQL database.</li>
+                            <li>Exposed 12 secure REST APIs for user authentication, active chats, and seamless document handling.</li>
+                            <li>Built hybrid retrieval pipelines combining semantic search (pgvector) with keyword ranking (BM25).</li>
+                            <li>Secured the platform via Google OAuth, JWT authentication, and highly secure HttpOnly cookies.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Impact:</strong>
+                        <ul>
+                            <li>Reduced perceived response wait time by ~37% compared to traditional blocking response methodologies.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>High Concurrency URL Shortener</h3>
+                <p><strong>Self Project | Apr 26 - May 26</strong></p>
+                <ul>
+                    <li><strong>Objective:</strong> To build a high-concurrency URL shortener enabling quicker cache redirections and async analytics.</li>
+                    <li><strong>Approach:</strong>
+                        <ul>
+                            <li>Architected a scalable backend using FastAPI and PostgreSQL for non-blocking database transactions.</li>
+                            <li>Integrated Redis for sub-millisecond redirect resolutions and IP-based rate limiting to prevent abuse.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Impact:</strong>
+                        <ul>
+                            <li>Achieved a 0% failure rate in rigorous load testing of 1614 requests, sustaining a consistent 40+ RPS.</li>
+                            <li>Delivered a 260ms median response time during peak traffic by using async background tasks efficiently.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="leadership">
+            <h2>Positions of Responsibility</h2>
+            <div class="role">
+                <h3>Coordinator, KOS (Dance Club) IIT Kanpur</h3>
+                <p><strong>Mar 26 - Present</strong></p>
+                <ul>
+                    <li><strong>Leadership:</strong>
+                        <ul>
+                            <li>Spearheaded IITK's 55+ member dance crew representing the institute in 6+ national competitions.</li>
+                            <li>Recruited 40+ fresh crew members out of 150+ applications through auditions and interviews.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Management:</strong>
+                        <ul>
+                            <li>Strategically managed the club's annual budget amounting to INR 170K ensuring proper fund allocation.</li>
+                            <li>Successfully conducted 12+ hip-hop summer workshops on campus, generating INR 39K+ in revenue.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Initiatives:</strong>
+                        <ul>
+                            <li>Established the club's first ever Battle crew, a dedicated group promoting Cypher Culture on campus.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Impact:</strong>
+                        <ul>
+                            <li>Achieved a 2x increase in secretary applications and a 1.5x boost in Dance Extravaganza participation.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Extra-Curricular Achievements</h2>
+            <ul>
+                <li>Overall Gold (Winners) at the Inter IIT Cultural Meet 8.0 representing IIT Kanpur. (National)</li>
+                <li>Achieved Gold out of 23 competing IITs in Group Dance event in Inter IIT Cult Meet 8.0. (National)</li>
+                <li>Secured Gold in Jitterbug Group Dance Competition across 2 formats in Antaragni 25. (National)</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
